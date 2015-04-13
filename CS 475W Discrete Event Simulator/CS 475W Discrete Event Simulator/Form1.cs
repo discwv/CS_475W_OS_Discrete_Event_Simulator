@@ -15,6 +15,8 @@ namespace CS_475W_Discrete_Event_Simulator
         public Form1()
         {
             InitializeComponent();
+            Simulation newsim = new Simulation("test.txt");
+            newsim.Run();
         }
     }
 }

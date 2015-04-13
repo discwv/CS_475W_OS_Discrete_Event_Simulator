@@ -22,7 +22,7 @@ namespace CS_475W_Discrete_Event_Simulator
             string lineNumJobs = inputFile.ReadLine();
             int[] firstLine = lineNumJobs.Split(',').Select(int.Parse).ToArray();
             int numJobs = firstLine[0];
-
+            AllJobs = new List<Job>();
             while(numJobs-- > 0)
             {
                 List<string> jobStrings = new List<string>();

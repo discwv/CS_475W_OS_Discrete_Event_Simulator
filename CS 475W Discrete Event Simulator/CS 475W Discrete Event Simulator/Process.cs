@@ -8,5 +8,7 @@ namespace CS_475W_Discrete_Event_Simulator
 {
     class Process
     {
+        // TODO: Implement Process
+
     }
 }

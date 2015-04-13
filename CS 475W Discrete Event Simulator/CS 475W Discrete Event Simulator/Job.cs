@@ -20,6 +20,7 @@ namespace CS_475W_Discrete_Event_Simulator
         {
             int[] firstLine = inputString[0].Split(',').Select(int.Parse).ToArray();
             myStartTime = firstLine[0];
+            myThreads = new List<List<int>>();
             for (int i = 0; i < firstLine[1]; i++)
             {
                 List<int> line = inputString[i+1].Split(',').Select(int.Parse).ToList();
