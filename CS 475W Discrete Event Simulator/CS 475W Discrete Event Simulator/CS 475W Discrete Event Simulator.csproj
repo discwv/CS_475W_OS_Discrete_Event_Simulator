@@ -44,7 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants.cs" />
     <Compile Include="CPU.cs" />
+    <Compile Include="Discrete_Event.cs" />
+    <Compile Include="Event_Priority_Queue.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

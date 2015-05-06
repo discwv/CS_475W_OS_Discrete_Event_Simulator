@@ -15,6 +15,8 @@ namespace CS_475W_Discrete_Event_Simulator
         public Form1()
         {
             InitializeComponent();
+            Simulation newsim = new Simulation("run1.txt", "PIDOUT.txt", "CPUOUT.txt", "QUEUEOUT.txt");
+            newsim.Run();
         }
     }
 }
